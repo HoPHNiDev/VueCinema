@@ -1,0 +1,188 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .film-block {
+        flex-wrap: wrap;
+    }
+    .film-card {
+        width: 48%;
+    }
+    .film-card img {
+        width: 100%;
+    }
+    .film-card:nth-of-type(n + 3) {
+        margin-top: 30px;
+    }
+
+    .collections-block {
+        flex-wrap: wrap;
+    }
+    .collections-card {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .collections-card img {
+        width: 100%;
+    }
+    .collections-card:nth-of-type(n + 1) {
+        margin-top: 30px;
+    }
+    .span::before,
+    .span::after {
+        width: 25px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        max-width: 768px;
+    }
+    .series-item_photo:nth-of-type(3) {
+        grid-column: 3/5;
+    }
+    .series-item_photo:nth-of-type(4) {
+        grid-column: 3/5;
+    }
+    .series-item_photo:nth-of-type(5) {
+        grid-column: 1/3;
+    }
+    .series-item_photo:nth-of-type(6) {
+        grid-column: 3/5;
+    }
+}
+@media (max-width: 720px) {
+    .kong-content_logo {
+        font-size: 50px;
+    }
+    .kong-content_text {
+        margin: 10px 0;
+    }
+    .film {
+        padding: 20px 0 30px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .widow {
+        padding: 42px 0 30px;
+    }
+    .widow-text {
+        margin: 30px 0;
+    }
+    .footer-body {
+        flex-direction: column;
+    }
+    .footer-body_logo {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 572px) {
+    .nav-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-list_link::after {
+        margin-top: 20px;
+    }
+    .nav {
+        padding-top: 20px;
+    }
+    .header-films {
+        padding: 10px 0;
+    }
+    .span::after,
+    .span::before {
+        width: 20px;
+        height: 25px;
+    }
+    .series-item_side-text {
+        line-height: 22;
+        margin: 10px 0;
+    }
+    .widow-text {
+        max-width: 500px;
+        line-height: 26px;
+        font-size: 17px;
+    }
+    .header-bg_photo {
+        height: 330px;
+    }
+    .section-link {
+        padding: 10px 30px;
+    }
+    .dop-title {
+        font-size: 23px;
+    }
+    .series-item {
+        gap: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .film-card {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .film-card:nth-of-type(n + 1) {
+        margin-top: 16px;
+    }
+    .widow-img {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .series-item_side-text {
+        line-height: 18px;
+        font-size: 15px;
+    }
+    .series-item_photo:nth-of-type(n + 2) {
+        grid-column: 1/5;
+    }
+    .collections-card {
+        width: 80%;
+    }
+    .kong-content_logo {
+        line-height: 40px;
+        font-size: 40px;
+    }
+    .series-item_photo {
+        height: 400px;
+    }
+}
+@media (max-width: 430px) {
+    .series-item_side-title {
+        font-size: 30px;
+    }
+    .series-item_side {
+        padding: 0 5px;
+    }
+    .kong-content_logo {
+        font-size: 30px;
+    }
+    .kong-content_text {
+        line-height: 20px;
+    }
+    .header-link {
+        margin-right: 15px;
+    }
+    .collections-card {
+        width: 95%;
+    }
+}
+@media (max-width: 330px) {
+    .nav-list_link {
+        margin: 0 0 0 0;
+    }
+    .nav {
+        padding-top: 10px;
+    }
+    .widow-img {
+        width: 90%;
+    }
+    .widow-text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
